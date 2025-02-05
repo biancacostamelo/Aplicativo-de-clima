@@ -6,4 +6,4 @@ Este aplicativo permite consultar a previsão do tempo para uma cidade específi
 - Exibição de mensagens de atualização de dados.
 - Estilização responsiva e agradável com `SafeAreaView` e componentes do React Native.
 
-![mobile-design](image-1.png)
+![mobile-design](./assets/image.png)

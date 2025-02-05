@@ -73,17 +73,20 @@ export default function App() {
 
           <View style={styles.dadosTemp}>
             <View style={styles.viewDadosText}>
+            <Image style= {styles.icon} source={require('./assets/vento.png')}/>
               <Text style={styles.dadosText} onChange={vento} value={vento}>
                 {vento}
               </Text>
             </View>
 
             <View style={styles.viewDadosText}>
+            <Image style= {styles.icon} source={require('./assets/gota.png')}/>
               <Text style={styles.dadosText} onChange={umidade} value={umidade}>
                 {umidade}
               </Text>
             </View>
             <View style={styles.viewDadosText}>
+            <Image style= {styles.icon} source={require('./assets/pressao.png')}/>
               <Text style={styles.dadosText} onChange={pressao} value={pressao}>
                 {pressao}
               </Text>
@@ -185,9 +188,14 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
     paddingVertical: 5,
     borderRadius: 20,
+    gap: 5
   },
   dadosText: {
     color: 'white',
-    fontWeight: 300,
+    fontWeight: 400,
   },
+  icon: {
+    width: 20,
+    height: 20
+  }
 });
