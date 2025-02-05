@@ -1,11 +1,9 @@
-# Sample Snack app
+## Aplicativo de Previsão do Tempo  
+Este aplicativo permite consultar a previsão do tempo para uma cidade específica utilizando a API OpenWeatherMap. O usuário pode digitar o nome de uma cidade, e o aplicativo exibe a temperatura atual, a velocidade do vento, a pressão atmosférica e a umidade. A interface é simples e intuitiva, e os dados são atualizados automaticamente ao realizar uma busca.
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+### Funcionalidades:
+- Consulta de temperatura, vento, pressão e umidade de uma cidade.
+- Exibição de mensagens de atualização de dados.
+- Estilização responsiva e agradável com `SafeAreaView` e componentes do React Native.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
-
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+![mobile-design](image-1.png)
